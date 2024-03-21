@@ -68,9 +68,7 @@ const MainPage = () => {
 
   const validateInput=(time)=>{
     if(time<=0 && inputTime){
-        if (isStarted){
-          window.location.reload();
-        }
+      
         return <h1 className={styles.message}>Enter a Vaild Date and Time</h1>;
     }else if(Math.floor(time / 86400000)>99 &&inputTime!==0){
         return <h1  className={styles.message}>Selected time is more than 100 Days</h1>;
