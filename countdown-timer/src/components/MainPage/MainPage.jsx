@@ -82,6 +82,7 @@ const MainPage = () => {
       if (inputTime){
         if( time < 1000 ) {
             if(isStarted){
+              
                 playSound();
                 localStorage.removeItem("inputTime");
                 setIsStarted(false);     
