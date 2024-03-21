@@ -1,0 +1,46 @@
+.CounterCardCon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom left,  #75dfff,#ba4dff);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+.CounterCardtext{
+    color: white;
+   font-weight: 600;
+   font-size: 24px;
+   margin: 0;
+}
+@media (max-width:720px) {
+    .CounterCardCon{
+        
+        height: 80px;
+        width: 80px;
+        border-radius: 10px;
+        background-image: linear-gradient(to bottom left,  #75dfff,#ba4dff);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    }
+    .CounterCardtext{
+        color: white;
+       font-weight: 600;
+       font-size: 16px;
+       margin: 0;
+    }
+    
+}
+@media (max-width:420px) {
+    .CounterCardCon{
+        
+        height: 60px;
+        width: 60px;
+     }
+    .CounterCardtext{
+       font-size: 14px;
+       
+    }
+    
+}

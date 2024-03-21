@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+
+/* counterData[0] = Math.floor(time / 86400000);
+counterData[1] = Math.floor((time % 86400000) / 3600000);
+counterData[2] = Math.floor((time % 3600000) / 60000);
+
+counterData[3] = Math.floor(time / 1000) % 60; */

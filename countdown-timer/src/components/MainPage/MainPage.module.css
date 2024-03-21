@@ -1,0 +1,101 @@
+.MainPagecon{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-image: linear-gradient(to top right  ,#ba4dff,  #75dfff);
+}
+.MainPageInputCon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+}
+.MainPageCounter{
+    display: flex;
+    gap: 30px;
+}
+.MainPageStartStopBtn{
+   height: 35px;
+   width: 150px;
+   background: transparent;
+   border :1px solid antiquewhite;
+   border-radius: 5px;
+   color: white;
+   font-weight: 600;
+   font-size: 16px;
+   
+}
+.MainPageInput{
+    height: 30px;
+    width: 220px;
+    padding: 8px;
+    background: transparent;
+    border :1px solid antiquewhite;
+    border-radius: 5px;
+    color: white;
+   font-weight: 600;
+   font-size: 16px;
+    
+}
+.MainPagehead{
+    color: white;
+   font-weight: 600;
+   font-size: 38px;
+   margin: 0;
+    
+}
+.MainPageheadSpan{
+    color:   #9a04cc;
+}
+.message{
+    color:   #9a04cc;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0;
+}
+@media (max-width:720px) {
+    .MainPageInput{
+        
+        
+        height: 28px;
+        width: 200px;
+        font-size: 14px;
+    }
+    .MainPagehead{
+        
+       font-size: 32px;
+      
+    }
+    .MainPageStartStopBtn{
+        height: 30px;
+   width: 120px;
+   font-size: 14px;
+    }
+    
+}
+@media (max-width:420px) {
+    .MainPageInput{
+        
+        
+        height: 26px;
+        width: 180px;
+        font-size: 12px;
+    }
+    .MainPagehead{
+      
+       font-size: 30px;
+       
+    }
+    .MainPageStartStopBtn{
+        height: 28px;
+   width: 110px;
+   font-size: 12px;
+    }
+    
+}
